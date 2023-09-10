@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template 1</title>
+    <title>FaceLink Attendance</title>
 
     <!-- Main template CSS File -->
     <link rel="stylesheet" href="static/style.css">
@@ -14,6 +14,9 @@
 
     <!-- Font Awesome Library -->
     <link rel="stylesheet" href="static/all.min.css">
+
+    <!-- Animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -64,22 +67,22 @@
     <!-- End Landing Section -->
 
     <!-- Start Features -->
-    <div class="features">
+    <div class="features" data-aos="fade-right" data-aos-duration="800">
         <h2 id="features" class="special-heading">Features</h2>
         <p>Discover our unique pros</p>
 
         <div class="container">
-            <div class="feat">
+            <div class="feat" data-aos="fade-right" data-aos-duration="800">
                 <i class="fa-solid fa-shield"></i>
                 <h3>Secure</h3>
                 <p>Face Biometrics are immune to spoofing</p>
             </div>
-            <div class="feat">
+            <div class="feat" data-aos="fade-right" data-aos-duration="800">
                 <i class="fa-solid fa-bolt-lightning"></i>
                 <h3>Fast</h3>
                 <p>Doesn't need more than a second to recognize faces</p>
             </div>
-            <div class="feat">
+            <div class="feat" data-aos="fade-right" data-aos-duration="800">
                 <i class="fa-solid fa-shuffle"></i>
                 <h3>Scalable</h3>
                 <p>Works totally fine with large number of people</p>
@@ -89,14 +92,14 @@
     <!-- End Features -->
 
     <!-- Start technology -->
-    <div class="tech">
+    <div class="tech" data-aos="fade-right" data-aos-duration="800">
         <div class="container">
             <h2 id="tech" class="special-heading">Technology Stack</h2>
             <p>Used programming languages and tools</p>
 
             <div class="tech-content">
                 <!-- Start a column -->
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-duration="800">
                     <!-- Start technology -->
                     <div class="tech-tool">
                         <i class="fa-brands fa-python"></i>
@@ -122,7 +125,7 @@
                 <!-- End a column -->
 
                 <!-- Start a column -->
-                <div class="col">
+                <div class="col" data-aos="fade-right" data-aos-duration="800">
                     <!-- Start technology -->
                     <div class="tech-tool">
                         <i class="fa-solid fa-a"></i>
@@ -175,7 +178,7 @@
     <!-- End Demo -->
 
     <!-- Start Contact -->
-    <div id="contact" class="contact">
+    <div id="contact" class="contact" data-aos="fade-right" data-aos-duration="800">
         <div class="container">
             <h1 class="special-heading">Contact</h1>
             <p>Do not hesistate to reach us!</p>
@@ -190,5 +193,9 @@
     </div>
     <!-- End Contact -->
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>
