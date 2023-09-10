@@ -242,6 +242,11 @@ body {
     grid-gap: 40px;
 }
 
+.features .special-heading {
+
+    margin-top: 100px;
+}
+
 .features .container .feat {
     padding: 20px;
     text-align: center;
@@ -278,7 +283,7 @@ body {
     font-size: 100px;
     text-align: center;
     font-weight: 800;
-    margin: 0 0 15px 0;
+    margin: 15px 0 15px 0;
 }
 
 .special-heading+p {
